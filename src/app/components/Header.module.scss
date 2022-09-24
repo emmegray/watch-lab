@@ -1,0 +1,44 @@
+@import "src/app/styles/variables.scss";
+
+.header {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 100;
+    background: $white;
+
+    .logo {
+        height: 100%;
+        background-color: #d0c5b6;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding: 0 30px;
+    }
+
+    :global {
+        .container {
+            height: 100%;
+        }
+
+        .nav-link {
+            margin-left: 30px;
+        }
+
+        .navbar {
+            padding: 0;
+            line-height: 30px;
+            height: 60px;
+            width: 100%;
+            background: $white;
+        }
+
+        .navbar-brand {
+            color: white;
+            font-family: Montserrat-Bold;
+            text-transform: uppercase;
+            letter-spacing: 3px;
+        }
+    }
+}

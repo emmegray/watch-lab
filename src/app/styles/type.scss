@@ -1,0 +1,62 @@
+@font-face {
+    font-family: Merri;
+    src: url(../../../public/assets/font/Merriweather-Regular.ttf);
+}
+
+@font-face {
+    font-family: Miller;
+    src: url(../../../public/assets/font/Miller-Display_30501.ttf);
+}
+
+@font-face {
+    font-family: Montserrat-Bold;
+    src: url(../../../public/assets/font/Montserrat-Bold.ttf);
+}
+
+@font-face {
+    font-family: Montserrat;
+    src: url(../../../public/assets/font/Montserrat-Regular.ttf);
+}
+
+.title {
+    font-family: Miller;
+    font-weight: normal;
+    font-size: 3rem;
+    margin: 0;
+    padding: 0;
+}
+
+.title-small {
+    @extend .title;
+    font-size: 1.80rem;
+}
+
+.subtitle {
+    font-family: Montserrat;
+    font-variant: small-caps;
+    font-weight: normal;
+    text-transform: uppercase;
+    padding: 0;
+    margin: 0;
+    font-size: 0.6rem;
+    letter-spacing: 0.15rem;
+}
+
+.description {
+    font-family: Montserrat;
+    font-weight: light;
+    padding: 0;
+    margin: 0;
+    font-size: 0.60rem;
+    letter-spacing: 1px;
+}
+
+.text {
+    font-family: Miller;
+    line-height: 2rem;
+    color: #aaa;
+}
+
+.bold {
+    font-weight: bold;
+}

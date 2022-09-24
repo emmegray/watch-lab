@@ -1,12 +1,15 @@
 import React from "react";
 import { Container, Navbar, Nav } from "react-bootstrap";
 
+import style from './Header.module.scss';
+
 export default function Header() {
   return (
-    <div className={"header"}>
-      <Navbar expand="md">
-        <Container>
-          <Navbar.Brand href="#">Watch/Lab</Navbar.Brand>
+    <div className={style.header}>
+      <Navbar expand="md" fluid>
+          <div className={style.logo}>
+            <Navbar.Brand href="#">Watch/Lab</Navbar.Brand>
+          </div>
           <Navbar.Toggle />
           <Navbar.Collapse>
             <Nav className="m-auto">
@@ -18,7 +21,6 @@ export default function Header() {
               <Nav.Link href="#about">Contacts</Nav.Link>
             </Nav>
           </Navbar.Collapse>
-        </Container>
       </Navbar>
     </div>
   )
