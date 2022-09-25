@@ -2,9 +2,9 @@ import React from 'react'
 import style from './Button.module.scss'
 
 export default function Button({
-    children,
+    children, className = ""
 }) {
   return (
-    <button className={style.Button}>{children}</button>
+    <button className={`${style.Button} ${className}`}>{children}</button>
   )
 }

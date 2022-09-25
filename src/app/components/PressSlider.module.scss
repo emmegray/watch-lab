@@ -1,0 +1,20 @@
+.Press {
+  button {
+    background: transparent;
+    border: 0;
+    font-size: 0.7rem;
+    
+    :first-child {
+      margin-right: 1rem;
+    }
+  }
+  .controls {
+    margin-bottom: 2rem;
+  }
+}
+
+@media (min-width: 768px) {
+  .Press {
+    background: linear-gradient(90deg, #fff 50%, #f8f8f8 50%);
+  }
+}

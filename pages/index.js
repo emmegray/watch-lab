@@ -3,8 +3,10 @@ import Header from "src/app/components/Header";
 import Jumbotron from "src/app/components/Jumbotron";
 import { Col, Container, Row } from "react-bootstrap";
 import Button from "src/app/components/Button";
+import { motion } from "framer-motion";
 
-import style from "src/app/styles/index.module.scss";
+import PressSlider from "src/app/components/PressSlider";
+import AnimatedContainer from "src/app/components/AnimatedContainer";
 
 export default function WatchLab(){
   return (
@@ -18,7 +20,7 @@ export default function WatchLab(){
       />
 
       {/* History */}
-      <Container className="my-5">
+      <AnimatedContainer className="my-5">
         <Row>
           <h2 className="title mb-4">History and <br/> Patriarcal season</h2>
         </Row>
@@ -41,15 +43,15 @@ export default function WatchLab(){
             </p>
           </Col>
         </Row>
-      </Container>
+      </AnimatedContainer>
 
       {/* Store */}
-      <Container className="mb-5">
+      <AnimatedContainer className="mb-5">
         <Row>
-          <Col xs={12} md={6} className="d-flex flex-column justify-content-center align-items-center text-center">
+          <Col xs={12} md={6} className="d-flex flex-column justify-content-center align-items-center text-center py-4">
             <h3 className="subtitle bold mb-3">London Collection Season</h3>
             <h2 className="title-small mb-5">Temporary Store</h2>
-            <p className="text px-5 mb-4">
+            <p className="text px-2 px-md-3 px-lg-5 mb-4">
               On the other hand, we denounce with righteous
               indignation and dislike men who are so beguiled and
               demoralized by the charms of pleasure of the moment,
@@ -58,17 +60,17 @@ export default function WatchLab(){
             <Button>View</Button>
           </Col>
           <Col xs={12} md={6} className="px-0">
-            <img src="/assets/images/img-1.png" alt="store" className="img-fluid" />
+            <img src="/assets/images/img-1.png" alt="store" className="img-fluid mb-4 mb-md-0" />
           </Col>
         </Row>
         <Row>
           <Col xs={12} md={6} className="px-0">
             <img src="/assets/images/img-2.png" alt="collection" className="img-fluid" />
           </Col>
-          <Col xs={12} md={6} className="d-flex flex-column justify-content-center align-items-center text-center">
+          <Col xs={12} md={6} className="d-flex flex-column justify-content-center align-items-center text-center py-4">
             <h3 className="subtitle bold mb-3">London Collection Season</h3>
             <h2 className="title-small mb-5">New Collection <br/> Henry London</h2>
-            <p className="text px-5 mb-4">
+            <p className="text px-2 px-md-3 px-lg-5 mb-4">
               On the other hand, we denounce with righteous
               indignation and dislike men who are so beguiled and
               demoralized by the charms of pleasure of the moment,
@@ -77,36 +79,10 @@ export default function WatchLab(){
             <Button>View</Button>
           </Col>
         </Row>
-      </Container>
+      </AnimatedContainer>
 
       {/* Press */}
-      <Container className={style.Press + " my-5"}>
-        <Row className="mb-2">
-          <Col>
-            <h2 className="title">Press from <br /> Watch Lab Studio</h2>
-          </Col>
-        </Row>
-        <Row>
-          <Col xs={12} md={4} className="pt-3 pe-5">
-            <p className="text">
-              On the other hand, we denounce with
-              righteous indignation and dislike men
-              who are so beguiled and demoralized
-              by the charms of pleasure of the
-              moment, so blinded by desire, that
-              they cannot foresee the pain trouble 
-            </p>
-          </Col>
-          <Col xs={12} md={5} className="mb-3">
-            <img src="/assets/images/img-3.png" alt="press" className="img-fluid" />
-          </Col>
-          <Col xs={12} md={3} className="ps-3 d-flex flex-column">
-            <span className="subtitle bold">Press</span>
-            <span className="subtitle mb-5">18 SETTEMBRE 2015</span>
-            <h3 className="title-small mb-5">Most Important <br/> Days on Watchlab</h3>
-          </Col>
-        </Row>
-      </Container>
+      <PressSlider title={(<>Press from <br /> Watch Lab Studio</>)}/>
     </Layout>
   )
 }
