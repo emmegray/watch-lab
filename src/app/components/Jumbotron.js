@@ -31,7 +31,6 @@ export default function Jumbotron ({
                 <h1 className="title">{title}</h1>
                 <h2 className="description">{description}</h2>
                 <Button>Discover</Button>
-                
             </motion.div>
         </Container>
     )

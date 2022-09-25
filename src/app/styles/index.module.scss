@@ -1,0 +1,26 @@
+.newsletter {
+
+  input,
+  button {
+    background-color: transparent;
+    color: white;
+    font-family: Miller;
+    border: 1px solid white;
+    padding: 0 0.9rem;
+    line-height: 2.5rem;
+  }
+
+  button {
+    font-size: 0.9rem;
+  }
+
+  input {
+    margin-right: 1rem;
+  }
+
+  ::placeholder {
+    color: white;
+    font-size: 0.9rem;
+  }
+
+}
