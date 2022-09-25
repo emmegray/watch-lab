@@ -1,5 +1,5 @@
-import Layout from "../src/app/components/Layout";
-import Header from "../src/app/components/Header";
+import Layout from "src/app/components/Layout";
+import Header from "src/app/components/Header";
 import Jumbotron from "src/app/components/Jumbotron";
 import { Col, Container, Row } from "react-bootstrap";
 import Button from "src/app/components/Button";

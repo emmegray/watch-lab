@@ -6,4 +6,10 @@
     background: transparent;
     border: 1px solid #e0d7cd;
     color: #e0d7cd;
+
+    transition: ease-in background 0.3s, ease-in color 0.3s;
+    &:hover {
+        background-color: #e0d7cd;
+        color: black;
+    }
 }
