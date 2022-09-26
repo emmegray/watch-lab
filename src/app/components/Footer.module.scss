@@ -3,4 +3,40 @@
 .Footer {
   background-color: $dark;
   color: $light;
+  font-family: Miller;
+  padding-left: 0;
+  padding-right: 0;
+
+  .logo {
+    color: white;
+    font-family: Montserrat-Bold;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+  }
+
+  span {
+    line-height: 2rem;
+  }
+
+  ul, li{
+    text-decoration: none;
+    list-style: none;
+    line-height: 2rem;
+
+    a{
+      text-decoration: none;
+      color: $light;
+
+      &:hover {
+        color: $white;
+      }
+    }
+  }
+
+  .bg-dark {
+    background-color: #303030;
+  }
+   
 }

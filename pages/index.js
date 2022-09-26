@@ -2,7 +2,7 @@ import Layout from "src/app/components/Layout";
 import Header from "src/app/components/Header";
 import Jumbotron from "src/app/components/Jumbotron";
 import Footer from "src/app/components/Footer";
-import { Col, Row } from "react-bootstrap";
+import { Col, Container, Row } from "react-bootstrap";
 import Button from "src/app/components/Button";
 import style from "src/app/styles/index.module.scss";
 
@@ -91,6 +91,8 @@ export default function WatchLab() {
           <Col
             className="d-flex flex-column justify-content-center align-items-center"
             style={{
+              backgroundSize: "cover",
+              backgroundPosition: "center",
               backgroundImage: `
               linear-gradient(
                   rgba(0, 0, 0, 0.35), 
@@ -126,7 +128,7 @@ export default function WatchLab() {
       </AnimatedContainer>
 
       {/* Get in Touch */}
-      <AnimatedContainer
+      <Container fluid
         className="d-flex flex-column justify-content-center align-items-center p-4"
         style={{
           backgroundSize: "cover",
@@ -147,7 +149,7 @@ export default function WatchLab() {
           <input type="text" placeholder="type your email" name="email" id="email" />
           <button type="submit">ok</button>
         </form>
-      </AnimatedContainer>
+      </Container>
 
       <Footer />
     </Layout>

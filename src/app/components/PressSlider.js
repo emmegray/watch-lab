@@ -9,9 +9,9 @@ import AnimatedContainer from './AnimatedContainer';
 
 const defaultSlides = [
   { description: "On the other hand, we denounce with righteous indignation and dislike men who are so beguiled and demoralized by the charms of pleasure of the moment, so blinded by desire, that they cannot foresee the pain trouble", title: "Most Important Days on Watchlab", image: "/assets/images/img-3.png", date: "18 SETTEMBRE 2015" },
-  { description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque sed ipsum nunc. Quisque id lectus suscipit, iaculis ex non, hendrerit neque. Cras ac venenatis mi, eu venenatis ipsum.", title: "Lorem ipsum", image: "/assets/images/img-4.png", date: "5 AGOSTO 2015" },
-  { description: "Aliquam nisl sem, tincidunt quis fringilla at, mattis ac lectus. Vivamus eleifend, mauris vel pretium facilisis, justo nibh placerat elit, a pretium metus nisi nec diam. Suspendisse non scelerisque augue. Sed sed efficitur nibh. Sed vestibulum mauris non faucibus vulputate.", title: "Dolor sit", image: "/assets/images/img-5.png", date: "23 LUGLIO 2015" },
-  { description: "Quisque in elementum lectus, vitae semper ipsum. Etiam ut metus tortor. Etiam vehicula, sem eget tristique tincidunt, nunc diam ullamcorper quam, sit amet feugiat mauris libero ultrices est. Nam nec arcu in neque tristique pulvinar eu at nisl.", title: "Most Important Days on Watchlab", image: "/assets/images/img-6.png", date: "16 GIUGNO 2015" },
+  { description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque sed ipsum nunc. Quisque id lectus suscipit, iaculis ex non, hendrerit neque. Cras ac venenatis mi, eu venenatis ipsum.", title: "Lorem ipsum", image: "/assets/images/img-10.png", date: "5 AGOSTO 2015" },
+  { description: "Aliquam nisl sem, tincidunt quis fringilla at, mattis ac lectus. Vivamus eleifend, mauris vel pretium facilisis, justo nibh placerat elit, a pretium metus nisi nec diam. Suspendisse non scelerisque augue. Sed sed efficitur nibh. Sed vestibulum mauris non faucibus vulputate.", title: "Dolor sit", image: "/assets/images/img-11.png", date: "23 LUGLIO 2015" },
+  { description: "Quisque in elementum lectus, vitae semper ipsum. Etiam ut metus tortor. Etiam vehicula, sem eget tristique tincidunt, nunc diam ullamcorper quam, sit amet feugiat mauris libero ultrices est. Nam nec arcu in neque tristique pulvinar eu at nisl.", title: "Most Important Days on Watchlab", image: "/assets/images/img-12.png", date: "16 GIUGNO 2015" },
 ]
 
 export default function PressSlider({
