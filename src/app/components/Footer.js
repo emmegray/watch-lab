@@ -6,7 +6,7 @@ import style from './Footer.module.scss';
 export default function Footer() {
   return (
     <Container fluid className={style.Footer}>
-        <Container>
+        <Container className='pt-4 pb-5'>
           <Row className='p-5 pb-0'>
             <div className={style.logo}>
               <Navbar.Brand href="#">Watch/Lab</Navbar.Brand>
