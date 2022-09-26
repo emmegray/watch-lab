@@ -46,7 +46,7 @@ export default function Jumbotron ({
                     duration: 0.35,
                     delay: 0.7
                 }}
-                className="position-absolute bottom-0 end-0 d-sm-none d-md-none d-lg-block">
+                className="position-absolute bottom-0 end-0 d-none d-lg-block d-xl-block">
                 <div
                     className="d-flex flex-column justify-content-between"
                     style={{

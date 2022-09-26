@@ -13,30 +13,30 @@ export default function Footer() {
             </div>
           </Row>
           <Row className='p-5 pt-0'>
-            <Col>
+            <Col className='col-2'>
               <span>
                 Watch/Lab _ Innovation brings success <br />
                 Via Borgogna 5, Milan <br />
                 Italy
               </span>
             </Col>
-            <Col>
-              <ul>
+            <Col className='col-2'>
+              <ul className='flex-column'>
                 <li><a href="#">About us</a></li>
                 <li><a href="#">Brand</a></li>
                 <li><a href="#">Projects</a></li>
                 <li><a href="#">Magazine</a></li>
               </ul>
             </Col>
-            <Col>
-              <ul>
+            <Col className='col-2'>
+              <ul className='flex-column'>
                 <li><a href="#">Press</a></li>
                 <li><a href="#">Contacts</a></li>
                 <li><a href="#">Privacy Policy</a></li>
                 <li><a href="#">Search</a></li>
               </ul>
             </Col>
-            <Col>
+            <Col className='col-3'>
               <ul>
                 <li>T. +39 392 9133937</li>
                 <li>M. <a href="#"><u>info@watch-lab.it</u></a></li>
