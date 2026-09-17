@@ -17,36 +17,34 @@
         padding: 0 30px;
     }
 
-    :global {
-        .container {
-            height: 100%;
-        }
+    :global(.container) {
+        height: 100%;
+    }
 
-        .nav-link {
-            margin-left: 30px;
-            font-family: Montserrat-Bold;
-            font-size: 0.80rem;
-        }
+    :global(.nav-link) {
+        margin-left: 30px;
+        font-family: Montserrat-Bold;
+        font-size: 0.80rem;
+    }
 
-        .navbar {
-            padding: 0;
-            line-height: 30px;
-            height: 60px;
-            width: 100%;
-            background: $white;
-            display: flex;
-            flex-direction: row;
-        }
+    :global(.navbar) {
+        padding: 0;
+        line-height: 30px;
+        height: 60px;
+        width: 100%;
+        background: $white;
+        display: flex;
+        flex-direction: row;
+    }
 
-        .navbar-brand {
-            color: white;
-            font-family: Montserrat-Bold;
-            text-transform: uppercase;
-            letter-spacing: 3px;
-        }
+    :global(.navbar-brand) {
+        color: white;
+        font-family: Montserrat-Bold;
+        text-transform: uppercase;
+        letter-spacing: 3px;
+    }
 
-        .navbar-nav {
-            background-color: white;
-        }
+    :global(.navbar-nav) {
+        background-color: white;
     }
 }
